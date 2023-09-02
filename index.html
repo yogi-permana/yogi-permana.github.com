@@ -1,73 +1,182 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-	<head>
-		<!-- Required meta tags -->
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yogi Permana</title>
 
-		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
 
-		<title>Yogi Permana</title>
-	</head>
-	<body class="bg-dark">
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-			<a class="navbar-brand" href="#">Yogi Permana</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-				<div class="navbar-nav">
-					<a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-					<a class="nav-item nav-link" href="about.html">About</a>
-					<a class="nav-item nav-link disabled" href="#">Beta</a>
-					<a class="nav-item nav-link disabled" href="#">Beta</a>
-				</div>
-			</div>
-		</nav>
-		
-		<div class="jumbotron jumbotron-fluid text-white bg-dark">
-			<div class="container">
-				<h1 class="display-4">Shortlink</h1>
-				<table class="table table-dark">
-					<thead>
-						<tr>
-							<th scope="col">#</th>
-							<th scope="col">Name</th>
-							<th scope="col">Link</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<th scope="row">*</th>
-							<td><a class="text-white text-none" href="https://clk.sh/member/dashboard">Clk.sh</a></td>
-							<td><a class="btn btn-primary" href="https://oko.sh/ysleep">View</a></td>
-						</tr>
-						<tr>
-							<th scope="row">*</th>
-							<td><a class="text-white text-none" href="https://megaurl.in/member/dashboard">MegaUrl</a></td>
-							<td><a class="btn btn-primary" href="http://go.megaurl.in/Github_Yogi_Permana">View</a></td>
-						</tr>
-						<tr>
-							<th scope="row">*</th>
-							<td><a class="text-white text-none" href="https://safelinku.com/member/dashboard">Safelinku</a></td>
-							<td><a class="btn btn-primary" href="https://ayobelajarbareng.com/NgLz95oj">View</a></td>
-						</tr>
-						<tr>
-							<th scope="row">*</th>
-							<td><a class="text-white text-none" href="https://shrinkearn.com/member/dashboard">Shrinkearn</a></td>
-							<td><a class="btn btn-primary" href="https://tii.la/veR5AYDuYE">View</a></td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-		</div>
+    <!-- feather icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
 
+    <!-- my style -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- navbar start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Yogi <span>Permana</span></a>
 
-		<!-- Optional JavaScript -->
-		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-	</body>
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Saya</a>
+        <a href="#menu">Portofolio</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- hero section start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Portofolio <br />Yogi <span>Permana</span></h1>
+        <p>
+          Disini tersedia semua profile saya dan termasuk project yang sudah
+          saya kerjakan
+        </p>
+      </main>
+    </section>
+    <!-- hero section end -->
+
+    <!-- about section start -->
+    <section class="about" id="about">
+      <h2>Tentang<span> Saya</span></h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="img/tentang-saya.jpg" alt="Tentang Saya" />
+        </div>
+        <div class="content">
+          <h3>Perjalanan Saya</h3>
+          <p>
+            Saya adalah seorang mahasiswa yang sudah menyelesaikan pendidikan
+            sarjana Teknik Informatika.
+          </p>
+          <p>
+            Selama dalam proses pembelejaran di universitas, saya sudah
+            menguasai dalam bidang pemograman, Autocad, Microsoft Office, dll.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- about section end -->
+
+    <!-- menu section start -->
+    <section class="menu" id="menu">
+      <h2>Portofolio<span> Saya</span></h2>
+      <p>Disini ada beberapa sample portofolio saya.</p>
+
+      <div class="row">
+        <div class="menu-card">
+          <img src="img/portofolio/0.jpg" alt="Sample" />
+          <h3 class="menu-card-title">Sample</h3>
+          <p class="menu-card-content">Coming soon.</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/portofolio/0.jpg" alt="Sample" />
+          <h3 class="menu-card-title">Sample</h3>
+          <p class="menu-card-content">Coming soon.</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/portofolio/0.jpg" alt="Sample" />
+          <h3 class="menu-card-title">Sample</h3>
+          <p class="menu-card-content">Coming soon.</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/portofolio/0.jpg" alt="Sample" />
+          <h3 class="menu-card-title">Sample</h3>
+          <p class="menu-card-content">Coming soon.</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/portofolio/0.jpg" alt="Sample" />
+          <h3 class="menu-card-title">Sample</h3>
+          <p class="menu-card-content">Coming soon.</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/portofolio/0.jpg" alt="Sample" />
+          <h3 class="menu-card-title">Sample</h3>
+          <p class="menu-card-content">Coming soon.</p>
+        </div>
+      </div>
+    </section>
+    <!-- menu section end -->
+
+    <!-- contact section start -->
+    <section class="contact" id="contact">
+      <h2>Kontak<span> Saya</span></h2>
+      <p>
+        Jika anda tertarik dengan saya, Anda bisa mengisi data dibawah ini :
+      </p>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d254832.50533354905!2d98.504676153824!3d3.642614146186609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x303131cc1c3eb2fd%3A0x23d431c8a6908262!2sMedan%2C%20Kota%20Medan%2C%20Sumatera%20Utara!5e0!3m2!1sid!2sid!4v1693383218939!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+
+        <form
+          action="mailto:yogipermana887@gmail.com"
+          method="post"
+          enctype="text/plain"
+        >
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" name="name" placeholder="name" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" name="mail" placeholder="mail" />
+          </div>
+          <div class="input-group">
+            <i data-feather="message-square"></i>
+            <input type="text" name="comment" size="50" placeholder="comment" />
+          </div>
+          <button type="submit" class="btn">Kirim pesan</button>
+        </form>
+      </div>
+    </section>
+    <!-- contact section end -->
+
+    <!-- footer start -->
+    <footer>
+      <div class="socials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="">yogi permana</a>. | &copy; 2023.</p>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- feather icon -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- my script -->
+    <script src="js/script.js"></script>
+  </body>
 </html>
