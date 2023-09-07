@@ -14,3 +14,21 @@ document.addEventListener("click", function (e) {
     navbarNav.classList.remove("active");
   }
 });
+
+// disbale right click mouse
+document.addEventListener(
+  "contextmenu",
+  (e) => {
+    e.preventDefault();
+  },
+  false
+);
+
+// disable copy paste use keyboard
+document.addEventListener(
+  "copy",
+  (e) => {
+    e.preventDefault();
+  },
+  false
+);
